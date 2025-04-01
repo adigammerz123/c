@@ -38,4 +38,4 @@ EXPOSE 2375
 EXPOSE 22
 
 # Start systemd and SSHX
-CMD ["/lib/systemd/systemd"]
+CMD cd ~ && sshx -q
